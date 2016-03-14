@@ -1,0 +1,73 @@
+<ion-navbar *navbar>
+    <ion-title>
+        Spider-Man
+    </ion-title>
+</ion-navbar>
+
+<ion-content class="home">
+
+    <ion-card>
+        <img src="build/img/spiderman.jpg" alt="spiderman">
+        <ion-card-content>
+            <ion-card-title>
+                Spider-Man
+            </ion-card-title>
+            <p>
+                Spider-Man is a fictional superhero appearing in American comic books published by Marvel Comics existing in its shared universe.
+            </p>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-content>
+            <ion-item>
+                <ion-label>Is this RED?</ion-label>
+                <ion-checkbox dark checked="true"></ion-checkbox>
+            </ion-item>
+
+            <ion-item>
+                <ion-label>A Man in costume?</ion-label>
+                <ion-checkbox disabled="true"></ion-checkbox>
+            </ion-item>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-content>
+            <ion-card-title>
+                Comments
+            </ion-card-title>
+            <ion-item>
+                <ion-label fixed>Your Name</ion-label>
+                <ion-input type="text" value=""></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label fixed>Comments</ion-label>
+                <ion-textarea></ion-textarea>
+            </ion-item>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-item>
+            <ion-avatar item-left>
+                <img src="build/img/avatar.jpg">
+            </ion-avatar>
+            <h2>Marty McFly</h2>
+            <p>November 5, 1955</p>
+        </ion-item>
+        <button primary clear item-left>
+            <ion-icon name="thumbs-up"></ion-icon>
+            <div>12 Likes</div>
+        </button>
+        <ion-card-content>
+            <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>
+        </ion-card-content>
+    </ion-card>
+
+</ion-content>
+
+
+<ion-toolbar position="bottom">
+    <ion-title>© spiderman</ion-title>
+</ion-toolbar>
